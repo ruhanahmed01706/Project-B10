@@ -10,10 +10,10 @@ body{
     font-family: "Azeret Mono", serif;
 }
 nav{
- margin: 10px 160px;
+ margin: 30px 160px;
  display: flex;
+ align-items: center;
  justify-content: space-between;
-
 }
 nav > h2{
     color: rgb(13, 19, 33);
@@ -30,4 +30,47 @@ nav > button{
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+}
+/* -------Banner Style------ */
+.banner{
+    background: url(assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px dashed #b2bec3;
+}
+.banner-content{
+    padding: 26px 221px 45px;
+    text-align: center;
+}
+.banner-img{
+    
+}
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 55px;
+    text-align: center;
+    padding: 15px 40px;
+}
+.banner-discrip{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 90px 15px;
+
+    
+}
+.banner-button{
+    color: white;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 15px 24px 15px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px
+
 }
